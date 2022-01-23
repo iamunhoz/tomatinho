@@ -6,7 +6,7 @@ import Soundify from "utils/Soundify"
 const POMODORO_LIMIT = 1500 // 25min * 60s
 
 export default function Timer({ setTodaysPomodoros }) {
-  const [seconds, setSeconds] = useState(1490)
+  const [seconds, setSeconds] = useState(0)
   const [intervalID, setIntervalID] = useState()
   const [startText, setStartText] = useState('Iniciar')
 
@@ -21,7 +21,7 @@ export default function Timer({ setTodaysPomodoros }) {
   }
   const handleReiniciar = () => {
     handleParar()
-    setSeconds(1490)
+    setSeconds(0)
     handleStart()
   }
 

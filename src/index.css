@@ -18,6 +18,13 @@ body {
   background-color: var(--darkbg);
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 button {
   border:none;
   background-image:none;
