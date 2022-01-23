@@ -4,9 +4,9 @@
 }
 :root {
   --darkbg: #191A19;
-  --darkgreen: #1E5128;
-  --green: #4E9F3D;
-  --lightgreen: #D8E9A8;
+  --green: #519259;
+  --blue: #70A1D7;
+  --red: #F47C7C;
 }
 
 body {
@@ -25,6 +25,11 @@ button {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+
+h2 {
+  color: white;
+  text-align: center;
 }
 
 code {

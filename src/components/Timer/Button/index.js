@@ -9,7 +9,6 @@ export default function Button ({
     return (
       <StyledButton
         onClick={onClick}
-        frontColor={frontColor}
         backColor={backColor}
       >
         {label}
