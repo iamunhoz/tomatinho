@@ -2,6 +2,14 @@ import { createStitches } from '@stitches/react';
 
 // breakpoints based on
 // https://gs.statcounter.com/screen-resolution-stats/
+
+const basicUnits = {
+  1: '6px',
+  2: '12px',
+  3: '18px',
+  4: '24px',
+};
+
 const { styled, css, keyframes } = createStitches({
   media: {
     sm: '(min-width: 358px)',
@@ -11,12 +19,8 @@ const { styled, css, keyframes } = createStitches({
     xxl: '(min-width: 1918px)',
   },
   theme: {
-    space: {
-      1: '6px',
-      2: '12px',
-      3: '18px',
-      4: '24px',
-    },
+    space: basicUnits,
+    sizes: basicUnits,
   },
 });
 

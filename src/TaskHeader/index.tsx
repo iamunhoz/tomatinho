@@ -1,5 +1,11 @@
-import React from 'react';
+import { useAtom } from 'jotai';
+import { currentTaskAtom } from 'state';
 
 export default function TaskHeader() {
-  return <header>TaskHeader</header>;
+  const [currentTask] = useAtom(currentTaskAtom);
+  return (
+    <header>
+      <span>{JSON.stringify(currentTask)}</span>
+    </header>
+  );
 }

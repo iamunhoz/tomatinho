@@ -4,8 +4,8 @@ import TodoMain from 'TodoMain';
 import { customStyled } from 'utils/stitches';
 
 const StyledApp = customStyled('div', {
-  width: 'calc(500px - $4)',
-  minHeight: 'calc(100vh - 24px)', // stitches bug?
+  maxWidth: 'calc(500px - $4)',
+  minHeight: 'calc(100vh - $4)',
 
   margin: '$2',
   border: '2px solid rgba(0,0,0,0.3)',
