@@ -5,10 +5,10 @@ import { customStyled } from 'helpers/stitches';
 
 const StyledApp = customStyled('div', {
   maxWidth: 'calc(500px - $4)',
-  minHeight: 'calc(100vh - $4)',
+  height: '100%',
 
-  margin: '$2',
-  border: '2px solid rgba(0,0,0,0.3)',
+  background:
+    'radial-gradient(circle, rgba(99,135,21,1) 0%, rgba(36,40,11,1) 100%)',
 
   display: 'flex',
   flexDirection: 'column',

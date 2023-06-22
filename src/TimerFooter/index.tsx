@@ -49,9 +49,9 @@ export default function TimerFooter() {
     rafId = requestAnimationFrame(updateTimer);
 
     return () => {
-      console.log('cancelling animation[rafId]', rafId);
       cancelAnimationFrame(rafId);
     };
+    // botar setTimerSeconds nas deps causa loop infinito
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timerStatus]);
   return (

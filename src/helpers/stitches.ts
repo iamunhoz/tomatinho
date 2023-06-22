@@ -21,6 +21,14 @@ const { styled, css, keyframes } = createStitches({
   theme: {
     space: basicUnits,
     sizes: basicUnits,
+    // from https://icolorpalette.com/638715_f35461_ea3132_fa4d44_24280b
+    colors: {
+      greenVidaLoca: '#638715',
+      redCarnation: '#f35461',
+      redAlizarinCrimson: '#ea3132',
+      redSunsetOrange: '#fa4d44',
+      greenBrownOnion: '#24280b',
+    },
   },
 });
 
