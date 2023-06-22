@@ -1,5 +1,5 @@
 import { useAtomValue } from 'jotai';
-import { customStyled } from 'utils/stitches';
+import { customStyled } from 'helpers/stitches';
 import { tasksAtom } from 'state';
 import TodoTitle from './components/TodoCard/components/TodoTitle';
 import TodoActions from './components/TodoCard/components/TodoActions';

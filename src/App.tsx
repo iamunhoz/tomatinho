@@ -1,7 +1,7 @@
 import TaskHeader from 'TaskHeader';
 import TimerFooter from 'TimerFooter';
 import TodoMain from 'TodoMain';
-import { customStyled } from 'utils/stitches';
+import { customStyled } from 'helpers/stitches';
 
 const StyledApp = customStyled('div', {
   maxWidth: 'calc(500px - $4)',

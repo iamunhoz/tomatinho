@@ -1,4 +1,4 @@
-import { customStyled } from 'utils/stitches';
+import { customStyled } from 'helpers/stitches';
 import { Task } from 'state';
 import useTaskActions from './useTaskActions';
 
